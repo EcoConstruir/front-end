@@ -1,0 +1,25 @@
+body{
+    width: 100vw;
+    /* height: 100vh; */
+    margin: 0;
+    background-color: salmon;
+}
+
+
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    background-color: #CECECE;
+    justify-content: space-between;
+    padding: 10px 200px 10px 200px;
+    box-sizing: border-box;
+}
+
+.nav-links{
+    right: 0;
+    a{
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
